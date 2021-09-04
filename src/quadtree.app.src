@@ -2,11 +2,11 @@
  [{description, "A Erlang Quadtree implementation."},
   {vsn, "0.1.0"},
   {registered, []},
-  {applications,
-   [kernel,
+  {applications, [
+    kernel,
     stdlib
-   ]},
-  {env,[]},
+  ]},
+  {env, []},
   {modules, [quadtree]},
   {maintainers, ["Nycholas de Oliveira e Oliveira"]},
   {licenses, ["BSD 3-Clause License"]},
